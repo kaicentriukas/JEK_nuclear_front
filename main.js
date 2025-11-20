@@ -18,6 +18,8 @@ const inputs = {
     big_red_button: -1,
     lever: 1,
     valve: 0,
+    reactor_rod_1: -1,
+    reactor_rod_2: -1,
 };
 
 // history arrays for energy vs time

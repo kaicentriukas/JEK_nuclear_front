@@ -56,7 +56,7 @@ const fill = () => {
     if (
         !inputs.resevoir_selector_1 &&
         reservoir_1_water_level < MAX_RESERVOIR_CAPACITY
-    ) {
+    ) { 
         reservoir_1_water_level += fillage;
     }
     if (

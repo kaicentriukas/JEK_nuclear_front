@@ -25,7 +25,7 @@ body {
     top: 40px; /* <- change these to move it */
     width: 700px;
     height: 400px;
-    background: rgb(232, 255, 223);
+    background: rgb(0, 0, 0);
     padding: 8px;
     border-radius: 8px;
 }
@@ -36,7 +36,7 @@ body {
     top: 40px;
     width: 700px;
     height: 400px;
-    background: rgb(232, 255, 223);
+    background: rgb(0, 0, 0);
     padding: 8px;
     border-radius: 8px;
 }

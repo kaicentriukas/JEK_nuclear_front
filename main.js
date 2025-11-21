@@ -93,7 +93,7 @@ function initCharts() {
                     label: "Energy",
                     data: energyHistory,
                     borderColor: "rgba(255, 200, 0, 1)", // bright amber line
-                    backgroundColor: "rgba(255, 200, 0, 0.2)", // optional fill
+                    backgroundColor: "rgba(255, 200, 0, 1)", // optional fill
                     borderWidth: 2,
                     tension: 0.2, // slight smoothing
                     fill: false,
@@ -111,6 +111,9 @@ function initCharts() {
                 },
                 y: {
                     beginAtZero: true,
+                    grid: {
+                        color: "rgba(255, 255, 255, 0.5)"
+                    },
                 },
             },
         },
@@ -152,6 +155,9 @@ function initCharts() {
             scales: {
                 y: {
                     beginAtZero: true,
+                    grid: {
+                        color: "rgba(255, 255, 255, 0.5)"
+                    },
                 },
             },
         },
